@@ -1,0 +1,15 @@
+doctype html
+html
+	head
+		title= title
+		link(rel='stylesheet', href='/normalize.css/normalize.css')
+		link(rel='stylesheet', href='bootstrap/dist/css/bootstrap.css')
+		block styles
+	body
+		block header
+		block content
+		block footer
+		script(src='jquery/dist/jquery.js')
+		script(src='bootstrap/dist/js/bootstrap.js')
+		script(src='vendor/q.js')
+		block scripts
